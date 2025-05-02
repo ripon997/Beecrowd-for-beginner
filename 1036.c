@@ -5,11 +5,9 @@ int main(){
     double A,B,C;
     double R1,R2,cal;
     scanf("%lf %lf %lf",&A,&B,&C);
-
     cal = B*B-4*A*C;
-
-    if(A==0||cal<0){
-        printf("Impossivel calcular");
+    if(2*A==0||cal<0){
+        printf("Impossivel calcular\n");
     }
     else{
         R1 = (-B+sqrt(cal))/(2*A);
