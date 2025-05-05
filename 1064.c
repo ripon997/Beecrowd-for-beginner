@@ -5,9 +5,10 @@ int main() {
     int i,count=0;
     for(i=0;i<6;i++){
         scanf("%f",&number);
-        sum+=number;
         if(number>0){
             count++;
+        sum+=number;
+
         }
     }
     float average;
@@ -17,3 +18,4 @@ int main() {
 
     return 0;
 }
+
