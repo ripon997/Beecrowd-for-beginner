@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int N;
-    scanf("%d",&N);
 
-    for(int i=1;i<=N;i++){
-        if(i%2==0){
-            printf("%d^2 = %d\n",i,i*i);
-        }
+    int i,n;
+    scanf("%d",&n);
+    i=1;
+    while(i<=n){
+        printf("%d\n",i);
+        i++;
     }
 
     return 0;
